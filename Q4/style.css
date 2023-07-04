@@ -85,3 +85,14 @@ details {
   height: 90vh;
   background-color: rgb(125, 208, 180);
 }
+
+.main-item-left {
+  background-color: blue;
+  width: 50%;
+  height: 100%;
+}
+.main-item-right {
+  background-color: rgb(30, 160, 10);
+  width: 50%;
+  height: 100%;
+}
