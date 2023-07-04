@@ -61,7 +61,10 @@ details {
 }
 
 #top-btn button {
+  font-weight: bold;
+  font-family: Geneva, Verdana, sans-serif;
   width: 90px;
+  height: 50px;
   padding: 20px;
   border: 0px;
   border-radius: 40px;
