@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-container {
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1em 1.5em;
+  width: 100vw;
+  height: 10vh;
+  background-color: #9884ab;
+}
+
+.nav-item-left ul {
+  display: flex;
+  gap: 0.5em;
+}
+.nav-item-left li {
+  list-style-type: none;
+}
+
+#logo {
+  width: 150px;
+}
+#phone {
+  text-align: right;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+#phone :hover {
+  text-decoration: underline;
+  color: #246fbe;
+}
+
+.nav-item-right {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+details::before {
+  content: url(./asset/blob.jpeg);
+}
+
+details {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#top-btn button {
+  width: 90px;
+  padding: 20px;
+  border: 0px;
+  border-radius: 40px;
+}
+
+.top-btn-right button {
+  background-color: yellow;
+}
+
+.main-container {
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  width: 100vw;
+  height: 90vh;
+  background-color: rgb(125, 208, 180);
+}
