@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent-box {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: 3px solid #61ac1a;
+            background-color: rgb(45, 62, 14);
+
+            border-radius: 30px;
+        }
+
+        .absolute-box {
+            position: absolute;
+            top: -10px;
+            right: -20px;
+            border-radius: 50%;
+            width: 50px;
+            text-align: center;
+            height: 50px;
+            border: 2px solid #c07451;
+            background-color: #e1510e;
+            /* to Dipslay  " NEW "  Nice */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Absolute Position</h1>
+    <p>The absolute position is positioned relative to the nearest positioned ancestor. If there is no positioned
+        ancestor,</p>
+    <div class="parent-box">
+
+        <div title="Box is Positioned Absolute " class="absolute-box">
+            NEW
+        </div>
+
+    </div>
+
+</body>
+
+</html>
