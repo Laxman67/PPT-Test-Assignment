@@ -8,13 +8,40 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
-    <style>
 
+    <style>
+        .topmost {
+            width: 100vw;
+            height: 6vh;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        #topmost p{
+            font-weight: bolder;
+        }
+        .bottom-most {
+            position: absolute;
+            bottom: 0px;
+            width: 100vw;
+            height: 10vh;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        #bottom-most p{
+            font-weight: bolder;
+        }
     </style>
 </head>
 
 <body>
 
+    <div class="topmost">
+        <p>Get Free for 30 Days</p>
+    </div>
     <nav class="nav-container">
         <!-- ================ -->
         <div class="nav-item-left nav-items">
@@ -56,10 +83,10 @@
                 </span></div>
 
             <div id="top-btn" class="sticker-banner   top-btn-left">
-                <button type="submit">Singup</button>
+                <button type="submit"><a href="">Singup</a></button>
             </div>
             <div id="top-btn" class="sticker-banner   top-btn-right">
-                <button type="submit">Login</button>
+                <button type="submit"><a href="">Login</a></button>
             </div>
         </div>
 
@@ -88,7 +115,9 @@
 
     </main>
 
-
+    <div class="bottom-most">
+        <p>Get Free for 30 Days</p>
+    </div>
 
 
 

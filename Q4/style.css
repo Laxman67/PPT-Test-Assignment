@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 * {
@@ -16,12 +17,13 @@ body {
   padding-top: 1em 1.5em;
   width: 100vw;
   height: 10vh;
-  background-color: #9884ab;
+
 }
 
 .nav-item-left ul {
   display: flex;
-  gap: 0.5em;
+  gap: 1.6em;
+  font-weight: 800;
 }
 .nav-item-left li {
   list-style-type: none;
@@ -82,7 +84,7 @@ details {
   align-items: center;
   padding-top: 1em;
   width: 100vw;
-  height: 90vh;
+  height: 80vh;
 }
 
 .main-item-left {
