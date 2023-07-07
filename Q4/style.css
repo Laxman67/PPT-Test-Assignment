@@ -17,7 +17,6 @@ body {
   padding-top: 1em 1.5em;
   width: 100vw;
   height: 10vh;
-
 }
 
 .nav-item-left ul {
@@ -84,7 +83,7 @@ details {
   align-items: center;
   padding-top: 1em;
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
 }
 
 .main-item-left {
@@ -97,7 +96,6 @@ details {
   position: relative;
 }
 .main-item-right {
-
   display: flex;
   width: 50%;
   height: 100%;

@@ -11,6 +11,9 @@
 
     <style>
         .topmost {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 100vw;
             height: 6vh;
             background-color: black;
@@ -18,21 +21,38 @@
             display: flex;
             justify-content: center;
         }
-        #topmost p{
+
+        #topmost p {
             font-weight: bolder;
         }
+
         .bottom-most {
-            position: absolute;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: fixed;
             bottom: 0px;
             width: 100vw;
             height: 10vh;
             background-color: black;
             color: white;
-            display: flex;
-            justify-content: center;
         }
-        #bottom-most p{
-            font-weight: bolder;
+
+        .bottom-most p {
+            font-weight: normal;
+        }
+
+        .bottom-most button {
+            padding: .5em;
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+
+        }
+
+        /* Utility class */
+        .txt-white {
+            color: white;
         }
     </style>
 </head>
@@ -116,7 +136,12 @@
     </main>
 
     <div class="bottom-most">
-        <p>Get Free for 30 Days</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Inventore, ipsa neque? Optio dicta mollitia
+            pariatur vel doloremque possimus quaerat assumenda.</p>
+
+
+        <button type="submit"><a href="#" class="txt-white">Customise Setting</a></button>
+
     </div>
 
 
