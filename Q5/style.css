@@ -1,6 +1,43 @@
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3);
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(1, 80vh);
   gap: 1.5em;
+}
+
+.items {
+  background-color: rgb(244, 244, 244);
+}
+.items img {
+  width: 100%;
+}
+
+.three {
+  display: flex;
+  background-color: aliceblue;
+  flex-direction: column;
+  gap: 10px;
+}
+.three-items {
+  height: 33%;
+  background-color: blue;
+}
+.three-items img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container {
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: aquamarine;
+}
+
+.gc-3 {
+  grid-column: 1/3;
+}
+.gc-3  img {
+ height: 60%;
 }
